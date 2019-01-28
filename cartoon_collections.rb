@@ -24,6 +24,6 @@ end
 
 def find_the_cheese(cheese)
 cheese.shift
-  
+
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
