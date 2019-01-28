@@ -16,6 +16,7 @@ def summon_captain_planet(fruits)
 
   end
   test.join("!")
+  test.split
 end
 
 def long_planeteer_calls(calls_long)
