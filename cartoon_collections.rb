@@ -7,7 +7,6 @@ def roll_call_dwarves(dwarves)
     num += 1
   end
   puts list.split
-
 end
 
 def summon_captain_planet(fruits)
