@@ -9,11 +9,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(items)
-  test = items.collect do |name|
+  cap_array = items.collect do |name|
     name.capitalize
   end
-  test.join("!")
-  test.split
+  cap_array.join("! ")
+  cap_array.split(" ")
 end
 
 def long_planeteer_calls(calls_long)
