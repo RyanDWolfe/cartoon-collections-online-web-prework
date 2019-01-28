@@ -11,7 +11,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(fruits)
-  fruits.capitalize
+  fruits.Capitalize
 end
 
 def long_planeteer_calls(calls_long)
