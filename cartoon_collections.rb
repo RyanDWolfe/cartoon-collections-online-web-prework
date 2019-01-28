@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   num = 1
   list = dwarves.collect do |dwarf_name|
     dwarf_name = "#{num}." + dwarf_name
+    puts dwarf_name
     num += 1
   end
   puts list
