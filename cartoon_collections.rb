@@ -11,11 +11,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(fruits)
-  fruits.collect do |x|
+  test = fruits.collect do |x|
     x.capitalize
 
   end
-  fruits.join("!")
+  test.join("!")
 end
 
 def long_planeteer_calls(calls_long)
