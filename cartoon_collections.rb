@@ -8,10 +8,9 @@ def roll_call_dwarves(dwarves)
   puts list
 end
 
-def summon_captain_planet(fruits)
-  test = fruits.collect do |x|
-    x.capitalize
-
+def summon_captain_planet(items)
+  test = items.collect do |name|
+    name.capitalize
   end
   test.join("!")
   test.split
