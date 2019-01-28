@@ -1,11 +1,10 @@
 def roll_call_dwarves(dwarves)
   num = 1
-  list = dwarves.collect do |x|
-    string = x.join
-    string_new = "#{num}." + string
+  list = dwarves.collect do |dwarf_name|
+    dwarf_name = "#{num}." + dwarf_name 
     num += 1
   end
-  puts list.split
+  puts list
 end
 
 def summon_captain_planet(fruits)
