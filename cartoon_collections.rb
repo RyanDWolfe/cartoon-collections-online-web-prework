@@ -13,8 +13,9 @@ end
 def summon_captain_planet(fruits)
   fruits.collect do |x|
     x.capitalize
-    x.join("!")
+    
   end
+  fruits.join("!")
 end
 
 def long_planeteer_calls(calls_long)
