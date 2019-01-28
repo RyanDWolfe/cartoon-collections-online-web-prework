@@ -1,5 +1,4 @@
 def roll_call_dwarves(dwarves)
-
   num = 1
   list = dwarves.collect do |x|
     string = x.join
