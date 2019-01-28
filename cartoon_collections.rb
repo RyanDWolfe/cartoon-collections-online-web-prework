@@ -13,7 +13,7 @@ end
 def summon_captain_planet(fruits)
   fruits.collect do |x|
     x.capitalize
-    y = x.join("!")
+    x.join("!")
   end
 end
 
